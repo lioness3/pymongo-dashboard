@@ -81,7 +81,31 @@ Update and Delete functions for dictionary data. This example uses the database 
 To delete the data the animal ID is first I looked for in a list of the dictionary documents. Then, the document is deleted.
 ![image](https://user-images.githubusercontent.com/56535394/197426275-598d2725-9f4e-42d9-a893-407bdb4ff672.png)
 
+### Tests
+The steps of this test are as follows:  
+Create an instance of the class and assign it data.  
+Then, print ‘animal added’ if the create method works.  
+Then, print the animal data and “animal read” if the read method works.  
+* Note: this test is not included in this version.  
+![image](https://user-images.githubusercontent.com/56535394/197428265-f45ccc75-991d-48dc-89b9-da4bd90c438d.png)
+Below is an example of the test script running correctly for the data seen above.  
+![image](https://user-images.githubusercontent.com/56535394/197428271-78261e31-fd8d-4e9f-9f09-a834652009d1.png)
 
+Below is a screenshot of the test animal shelter file. There is data created for a mock document and new data instantiated for later use. The variable shelter instantiates the object animal shelter using the username and password. This is example uses the command shelter.create(data) and the boolean value True.
+Next the shelter is updated with the new data variable. This returns the JSON format that includes the new data. 
+![image](https://user-images.githubusercontent.com/56535394/197428333-2817e0bc-5d11-44ea-819f-0bedcad34294.png)
+
+The delete results:
+![image](https://user-images.githubusercontent.com/56535394/197428356-c9eb32d9-124c-4391-ac5b-58d92af93e94.png)
+Screenshots:  Photo credit: screenshots from my laptop September, October 2022
+
+### Roadmap/Features/Roadblocks
+#### Roadmap:
+As of now, there are no future plans for this project as it is completed and the first 	version has been released.
+#### Roadblocks:
+Rendering the filtered data with the radio buttons was trivial. The issue was solved by 	removing the component ‘id’ from the return statements in the update_graph and 	update_map functions located in ‘Project2__JoannCarter.ipynb.’
+#### Contact
+Joann Carter
 
 
 
